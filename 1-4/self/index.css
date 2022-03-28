@@ -1,0 +1,11 @@
+.favorite-table {
+  border-collapse: collapse;
+}
+  
+.favorite-table-label {
+  background-color: darkgrey;
+}
+  
+.favorite-color {
+  color: blue; 
+}

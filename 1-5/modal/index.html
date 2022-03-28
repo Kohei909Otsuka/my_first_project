@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>大塚康平のプロフィール</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2">大塚康平のプロフィール</h1>
+
+            <div class="columns">
+                <div class="column">
+                    <figure class="image is-128x128">
+                      <img
+                        src="https://prtimes.jp/i/23616/44/ogp/d23616-44-626843-1.jpg"
+                        class="is-rounded js-modal-trigger"
+                        data-target="profile-img-modal"
+                        style="cursor: pointer;"
+                      />
+                    </figure>
+                </div>
+                <div class="column is-flex is-flex-direction-column is-justify-content-space-between">
+                    <p>
+                        29歳。エンジニアで1児の父です。
+                        領域的にはフロントからバックエンド、インフラまで広く浅く。
+                    </p>
+                    <div class="tags">
+                        <span class="tag is-primary is-light">エンジニア</span>
+                        <span class="tag is-warning is-light">父親</span>
+                    </div>
+                </div>
+            </div>
+            <h3 class="subtitle is-3">好きなものテーブル</h2>
+            <table class="table is-bordered is-striped is-fullwidth">
+                <tbody>
+                <tr>
+                    <td>好きな色</td>
+                    <td>青</td>
+                </tr>
+                <tr>
+                    <td>好きな食べ物</td>
+                    <td>お寿司</td>
+                </tr>
+                </tbody>
+            </table>
+    
+            <h3 class="subtitle is-3">休日の過ごし方リスト</h2>
+            <div class="content">
+                <ul>
+                    <li>午前</li>
+                    <ol>
+                        <li>起きる</li>
+                        <li>家事</li>
+                    </ol>
+                    <li>午後</li>
+                    <ol>
+                        <li>ダラダラ</li>
+                        <li>子供と遊ぶ</li>
+                    </ol>
+                </ul>
+            </div>
+
+            <div class="is-flex is-flex-direction-row is-justify-content-center">
+                <button class="button is-primary">
+                    <a href="/thanks.html">thanksページへ</a>
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- https://bulma.io/documentation/components/modal/ -->
+    <div id="profile-img-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="is-flex is-flex-direction-row is-justify-content-center">
+                <img src="https://prtimes.jp/i/23616/44/ogp/d23616-44-626843-1.jpg"/>
+            </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  </body>
+</html>
